@@ -1,2 +1,2 @@
 # blog
-A page to share web technology.
+A page to share technology.
