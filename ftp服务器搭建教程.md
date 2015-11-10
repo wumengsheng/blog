@@ -7,18 +7,18 @@
 5. [新建用户文件](#5)
 
 ---
-<p id = "1"><b>更新安装包</b></p>    
+<p id = "1"><b>1. 更新安装包</b></p>    
 `apt-get update`  
 
 ---
-<p id = "2"><b>安装vsftpd</b></p>  
+<p id = "2"><b>2. 安装vsftpd</b></p>  
 1. 安装vsftpd  
 `apt-get install vsftpd`  
 2. 查看vsftpd是否安装成功  
 `service vsftps restart`    
 
 ---
-<p id = "3"><b>新建工作目录</b></p>  
+<p id = "3"><b>3. 新建工作目录</b></p>  
 1. 建立工作目录  
 `mkdir /home/ftp` 
 2. 添加用户  
@@ -27,7 +27,7 @@
 `passwd myftp`  
 
 ---
-<p id = "4"><b>配置文件</b></p>  
+<p id = "4"><b>4. 配置文件</b></p>  
 1. 打开配置文件vsftpd.conf  
 `vi /etc/vsftpd.conf`  
 2. 在文件最后添加代码  
@@ -39,7 +39,7 @@
 `#local_enable=YES`  
 
 ---
-<p id = 5><b>新建用户文件</b></p>  
+<p id = 5><b>5. 新建用户文件</b></p>  
 1. 新建/etc/allowed_users文件  
 `vi /etc/allowed_users`  
 `添加myftp（用户名）后退出`  
