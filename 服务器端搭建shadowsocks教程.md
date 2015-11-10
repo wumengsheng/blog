@@ -51,7 +51,7 @@
 ---
 <p id = "6"><b>6. 浏览器端使用SwitchyOmega扩展插件</b></p>   
 在浏览器端添加扩展插件SwitchOmega并配置相关信息  
-[点我下载SwitchyOmega](#https://github.com/FelisCatus/SwitchyOmega/releases)  
+[点我下载SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega/releases)  
     
 ---
 <p id = "7"><b>7. shadowsocks客户端下载</b></p>   
