@@ -55,8 +55,8 @@
     
 ---
 <p id = "7"><b>7. shadowsocks客户端下载</b></p>   
-[点我下载shadowsocks客户端](#http://pan.baidu.com/s/1c09b3ZM)  
+[点我下载shadowsocks客户端](http://pan.baidu.com/s/1c09b3ZM)  
 密码: yd8j 
 
 ---
-完成
+**完成**
