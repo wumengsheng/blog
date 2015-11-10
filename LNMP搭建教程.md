@@ -4,6 +4,7 @@
 2. [安装nginx](#2)
 3. [安装MySQL server](#3)
 4. [安装PHP](#4)
+
 ---
 <p id = "1"><b>简述LNMP</b></p>
 * LNMP的通用含义是：Linux系统 + Nginx + MySQL + PHP 这种网站服务器架构。     
@@ -11,6 +12,7 @@
 * Nginx是一款高性能的HTTP和反向代理服务器，也是一款IMAP/POP3/SMTP代理服务器；   
 * MySQL是一种小型关系型数据库管理系统；   
 * PHP是一种在服务器端执行的嵌入HTML文档的脚本语言。
+
 ---
 <p id = "2"><b>安装nginx</b></p>
 1. 先更新安装包   
@@ -22,20 +24,21 @@
 4. 配置nginx  
 `vi /etc/nginx/sites-available/default`   
 将一下代码前的#去除（即取消注释一下代码）  
-`localtion = /50x.html {  
-      root /usr/share/nginx/html;  
-}`     
-`localtion ~ \.php$ {  
-      try_files $uri = 404;  
-      fastcgi_split_path_info ^(.+\.php)(/.+)$;  
-      fastcgi_pass unix:/var/run/php5-fpm.sock;  
-      fastcgi_index index.php;  
-      include fastcgi_params;  
-}`     
+`localtion = /50x.html {`  
+      `root /usr/share/nginx/html; ` 
+`}`     
+`localtion ~ \.php$ { ` 
+      `try_files $uri = 404; ` 
+      `fastcgi_split_path_info ^(.+\.php)(/.+)$; ` 
+      `fastcgi_pass unix:/var/run/php5-fpm.sock; ` 
+      `fastcgi_index index.php;`  
+      `include fastcgi_params;`  
+`}`     
 5. 重载nginx配置文件   
 `service nginx reload`   
 6. 重启nginx   
 `service nginx restart` 
+
 ---
 <p id = "3"><b>安装MySQL server</b></p>
 1. 安装MySQL server  
@@ -45,6 +48,7 @@
 `service mysql status`  
 4. 安装MySQL Client    
 `apt-get install mysql-client` 
+
 ---
 <p id = "4"><b>安装PHP</b></p>  
 1. 安装PHP5    
@@ -55,19 +59,20 @@
 `vi /etc/php5/fpm/php.ini`    
 `将 ;cgi.fix_pathinfo=1 去掉注释并改为 cgi.fix_pathinfo=0`    
 4. 重载、重启php和nginx  
-`service php5-fpm reload  
- service php5-fpm restart  
- service nginx reload  
- service nginx restart`  
+ `service php5-fpm reload`  
+ `service php5-fpm restart`  
+ `service nginx reload ` 
+ `service nginx restart`  
 5. 创建PHP探针文件“info.php”    
 `vi /etc/share/nginx/html/infp.php`    
 文件代码  
-` <?php  
-    phpinfp();  
-?> `   
+` <?php ` 
+   ` phpinfp();`  
+`?> `   
 6. 测试LNMP是否安装成功  
 `在浏览器中输入 http://服务器IP地址/info.php`  
 出现版本信息页面，说明安装成功。
+
 ---
 #####完成
 
