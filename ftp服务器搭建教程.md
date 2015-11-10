@@ -30,7 +30,7 @@
 <p id = "3"><b>配置文件</b></p>  
 1. 打开配置文件vsftpd.conf  
 `vi /etc/vsftpd.conf`  
-2. 在文件最后添加代码
+2. 在文件最后添加代码  
 `userlist_deny=NO`  
 `userlist_enable=YES`  
 `userlist_file=/etc/allowed_users`  
@@ -42,11 +42,11 @@
 <p id = 5><b>新建用户文件</b></p>  
 1. 新建/etc/allowed_users文件  
 `vi /etc/allowed_users`  
-`添加myftp（用户名）`  
+`添加myftp（用户名）后退出`  
 2. 查看禁止访问的用户名单  
-`vi /etc/ftpusers` 
+`vi /etc/ftpusers`   
 `这个文件记录的是禁止访问ftp服务器的用户list，所以必须保证文件中没有myftp用户名`  
 
 ---
-* 使用cuteftp连接ftp服务器并测试是否搭建成功 *
+*使用cuteftp连接ftp服务器并测试是否搭建成功*  
 #### 完成
