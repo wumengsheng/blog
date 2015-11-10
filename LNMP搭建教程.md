@@ -25,7 +25,7 @@
 `vi /etc/nginx/sites-available/default`   
 将一下代码前的#去除（即取消注释一下代码）  
 `localtion = /50x.html {`  
-      `root /usr/share/nginx/html; ` 
+      `root /usr/share/nginx/html;` 
 `}`     
 `localtion ~ \.php$ {`   
       `try_files $uri = 404;`   
