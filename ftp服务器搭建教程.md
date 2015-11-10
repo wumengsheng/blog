@@ -18,7 +18,7 @@
 `service vsftps restart`    
 
 ---
-<p id = "2"><b>新建工作目录</b></p>  
+<p id = "3"><b>新建工作目录</b></p>  
 1. 建立工作目录  
 `mkdir /home/ftp` 
 2. 添加用户  
@@ -27,7 +27,7 @@
 `passwd myftp`  
 
 ---
-<p id = "3"><b>配置文件</b></p>  
+<p id = "4"><b>配置文件</b></p>  
 1. 打开配置文件vsftpd.conf  
 `vi /etc/vsftpd.conf`  
 2. 在文件最后添加代码  
@@ -48,5 +48,5 @@
 `这个文件记录的是禁止访问ftp服务器的用户list，所以必须保证文件中没有myftp用户名`  
 
 ---
-*使用cuteftp连接ftp服务器并测试是否搭建成功*  
+**使用cuteftp连接ftp服务器并测试是否搭建成功**  
 #### 完成
