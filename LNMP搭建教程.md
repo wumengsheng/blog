@@ -6,10 +6,10 @@
 4. 
 
 <p id = "1"><b>简述LNMP</b></p>
-LNMP的通用含义是：Linux系统 + Nginx + MySQL + PHP 这种网站服务器架构。  
-1. Linux是目前最流行的操作系统，代表版本有Ubuntu、Debian、Centos、Fedora等；
-2. Nginx是一款高性能的HTTP和反向代理服务器，也是一款IMAP/POP3/SMTP代理服务器；
-3. MySQL是一种小型关系型数据库管理系统；
+LNMP的通用含义是：Linux系统 + Nginx + MySQL + PHP 这种网站服务器架构。     
+1. Linux是目前最流行的操作系统，代表版本有Ubuntu、Debian、Centos、Fedora等；   
+2. Nginx是一款高性能的HTTP和反向代理服务器，也是一款IMAP/POP3/SMTP代理服务器；   
+3. MySQL是一种小型关系型数据库管理系统；   
 4. PHP是一种在服务器端执行的嵌入HTML文档的脚本语言。
 
 <p id = "2"><b>安装nginx</b></p>
