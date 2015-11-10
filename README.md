@@ -3,4 +3,5 @@
 -------
 * 目录    
     * [Markdown基本语法](http://192.241.226.33/mdTeaching.html)   
-    * [LNMP搭建教程](https://github.com/wumengsheng/blog/blob/gh-pages/LNMP搭建教程.md#1)
+    * [LNMP搭建教程](https://github.com/wumengsheng/blog/blob/gh-pages/LNMP搭建教程.md#1)  
+    * [ftp服务器搭建教程](https://github.com/wumengsheng/blog/blob/gh-pages/ftp服务器搭建教程.md#5)  
