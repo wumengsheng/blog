@@ -6,7 +6,7 @@
 4. [安装PHP](#4)
 
 ---
-<p id = "1"><b>简述LNMP</b></p>
+<p id = "1"><b>1. 简述LNMP</b></p>
 * LNMP的通用含义是：Linux系统 + Nginx + MySQL + PHP 这种网站服务器架构。     
 * Linux是目前最流行的操作系统，代表版本有Ubuntu、Debian、Centos、Fedora等；   
 * Nginx是一款高性能的HTTP和反向代理服务器，也是一款IMAP/POP3/SMTP代理服务器；   
@@ -14,7 +14,7 @@
 * PHP是一种在服务器端执行的嵌入HTML文档的脚本语言。
 
 ---
-<p id = "2"><b>安装nginx</b></p>
+<p id = "2"><b>1. 安装nginx</b></p>
 1. 先更新安装包   
 `apt-get update`
 2. 安装nginx   
@@ -40,7 +40,7 @@
 `service nginx restart` 
 
 ---
-<p id = "3"><b>安装MySQL server</b></p>
+<p id = "3"><b>3. 安装MySQL server</b></p>
 1. 安装MySQL server  
 `apt-get install mysql-server`  
 2. 设置MySQL root用户密码  
@@ -50,7 +50,7 @@
 `apt-get install mysql-client` 
 
 ---
-<p id = "4"><b>安装PHP</b></p>  
+<p id = "4"><b>4. 安装PHP</b></p>  
 1. 安装PHP5    
 `apt-get install php5-fpm` 
 2. 安装以下功能插件    
