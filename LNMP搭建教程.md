@@ -25,14 +25,14 @@
 `vi /etc/nginx/sites-available/default`   
 将一下代码前的#去除（即取消注释一下代码）  
 `localtion = /50x.html {`  
-      `root /usr/share/nginx/html;` 
+      `root /usr/share/nginx/html;`     
 `}`     
 `localtion ~ \.php$ {`   
       `try_files $uri = 404;`   
       `fastcgi_split_path_info ^(.+\.php)(/.+)$;`   
       `fastcgi_pass unix:/var/run/php5-fpm.sock;`   
       `fastcgi_index index.php;`    
-      `include fastcgi_params;`    
+      `include fastcgi_params;`      
 `}`     
 5. 重载nginx配置文件   
 `service nginx reload`   
