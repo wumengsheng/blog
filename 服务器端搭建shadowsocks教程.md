@@ -9,19 +9,19 @@
 7. [shadowsocks客户端下载](#7)
 
 ---
-<p id = "1"><b>更新安装包</b></p>  
+<p id = "1"><b>1. 更新安装包</b></p>  
 `apt-get update`  
 
 ---
-<p id = "2"><b>安装Python环境</b></p>   
+<p id = "2"><b>2. 安装Python环境</b></p>   
 `apt-get install python-pip`  
 
 ---
-<p id = "3"><b>安装shadowsocks</b></p>   
+<p id = "3"><b>3. 安装shadowsocks</b></p>   
 `pip install shadowsocks`  
 
 ---
-<p id = "4"><b>修改配置文件</b></p>  
+<p id = "4"><b>4. 修改配置文件</b></p>  
 1. 打开配置文件  
 `vi /etc/shadowsocks.json`  
 1. 编辑、保存并退出  
@@ -38,23 +38,23 @@
     `}`  
     
 ---
-<p id = "5"><b>运行</b></p>  
+<p id = "5"><b>5. 运行shadowsocks</b></p>  
 1. 前台运行  
 `ssserver -c /etc/shadowsocks.json`  
 2. 后台运行  
 `ssserver -c /etc/shadowsocks.json -d start`   
-3. 停止运行
+3. 停止运行  
 `ssserver -c /etc/shadowsocks.json -d stop`  
 4. 重启  
 `ssserver -c /etc/shadowsocks.json -d restart`  
     
 ---
-<p id = "6"><b>浏览器端使用SwitchyOmega扩展插件</b></p>   
+<p id = "6"><b>6. 浏览器端使用SwitchyOmega扩展插件</b></p>   
 在浏览器端添加扩展插件SwitchOmega并配置相关信息  
 [点我下载SwitchyOmega](#https://github.com/FelisCatus/SwitchyOmega/releases)  
     
 ---
-<p id = "7"><b>shadowsocks客户端下载</b></p>   
+<p id = "7"><b>7. shadowsocks客户端下载</b></p>   
 [点我下载shadowsocks客户端](#http://pan.baidu.com/s/1c09b3ZM)  
 密码: yd8j 
 
