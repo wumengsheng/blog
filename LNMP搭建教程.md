@@ -36,18 +36,18 @@
 `service nginx reload`   
 6. 重启nginx   
 `service nginx restart`  
-<p id = "3">安装MySQL server<b></b></p>
+<p id = "3"><b>安装MySQL server</b></p>
 1. 安装MySQL server
 `apt-get install mysql-server`  
 2. 设置MySQL root用户密码  
 3. 检查MySQL服务器状态  
 `service mysql status`  
-4. 安装MySQL Client  
+4. 安装MySQL Client    
 `apt-get install mysql-client`  
-<p id = "4">安装PHP<b></b></p>  
-1. 安装PHP5  
+<p id = "4"><b>安装PHP</b></p>  
+1. 安装PHP5    
 `apt-get install php5-fpm` 
-2. 安装以下功能插件  
+2. 安装以下功能插件    
 `apt-get install php5 php5-cgi php5-curl php5-dev php5-gd php5-mysql php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl php5-imagick php5-imap php5-intl php5-mcrypt php5-memcache php5-memcached php5-ming php5-ps php-pear php-apc`  
 3. 配置php.ini  
 `vi /etc/php5/fpm/php.ini`  
@@ -65,7 +65,8 @@
 ?> ` 
 6. 测试LNMP是否安装成功  
 `在浏览器中输入 http://服务器IP地址/info.php`  
-出现版本信息页面，说明安装成功。  
+出现版本信息页面，说明安装成功。
+
 #####完成
 
 
