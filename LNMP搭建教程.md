@@ -61,14 +61,14 @@
 4. 重载、重启php和nginx  
  `service php5-fpm reload`  
  `service php5-fpm restart`  
- `service nginx reload ` 
+ `service nginx reload`  
  `service nginx restart`  
 5. 创建PHP探针文件“info.php”    
 `vi /etc/share/nginx/html/infp.php`    
 文件代码  
-` <?php ` 
-   ` phpinfp();`  
-`?> `   
+`<?php`  
+   ` phpinfp();`   
+`?>`   
 6. 测试LNMP是否安装成功  
 `在浏览器中输入 http://服务器IP地址/info.php`  
 出现版本信息页面，说明安装成功。
