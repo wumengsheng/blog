@@ -27,12 +27,12 @@
 `localtion = /50x.html {`  
       `root /usr/share/nginx/html; ` 
 `}`     
-`localtion ~ \.php$ { ` 
-      `try_files $uri = 404; ` 
-      `fastcgi_split_path_info ^(.+\.php)(/.+)$; ` 
-      `fastcgi_pass unix:/var/run/php5-fpm.sock; ` 
-      `fastcgi_index index.php;`  
-      `include fastcgi_params;`  
+`localtion ~ \.php$ {`   
+      `try_files $uri = 404;`   
+      `fastcgi_split_path_info ^(.+\.php)(/.+)$;`   
+      `fastcgi_pass unix:/var/run/php5-fpm.sock;`   
+      `fastcgi_index index.php;`    
+      `include fastcgi_params;`    
 `}`     
 5. 重载nginx配置文件   
 `service nginx reload`   
@@ -54,7 +54,9 @@
 1. 安装PHP5    
 `apt-get install php5-fpm` 
 2. 安装以下功能插件    
-`apt-get install php5 php5-cgi php5-curl php5-dev php5-gd php5-mysql php5-pspell php5-recode php5-snmp php5-sqlite php5-tidy php5-xmlrpc php5-xsl php5-imagick php5-imap php5-intl php5-mcrypt php5-memcache php5-memcached php5-ming php5-ps php-pear php-apc`  
+`apt-get install php5 php5-cgi php5-curl php5-dev php5-gd php5-mysql php5-pspell php5-recode php5-snmp`  
+`php5-sqlite php5-tidy php5-xmlrpc php5-xsl php5-imagick php5-imap php5-intl php5-mcrypt php5-memcache`  
+`php5-memcached php5-ming php5-ps php-pear php-apc`    
 3. 配置php.ini  
 `vi /etc/php5/fpm/php.ini`    
 `将 ;cgi.fix_pathinfo=1 去掉注释并改为 cgi.fix_pathinfo=0`    
