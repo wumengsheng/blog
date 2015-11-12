@@ -9,18 +9,23 @@
     
 ---
 * [HTML篇](https://github.com/wumengsheng/HTML)  
+   * 一页纸薄，不足以记录html全部特性。  
 
 --- 
-* [CSS篇](https://github.com/wumengsheng/CSS) 
+* [CSS篇](https://github.com/wumengsheng/CSS)   
+   * 一页纸轻，不足以详述css所有变化。
 
 ---
 * [JavaScript篇](https://github.com/wumengsheng/JavaScript)  
+   * 一页纸重，记录的是不断学习和进步的过程。
 
 ---
 * [前端面试篇](https://github.com/wumengsheng/front-end-interview)  
+   * 总结前端面试题和面试技巧。
 
 ---
 * [日记](https://github.com/wumengsheng/diary/blob/master/README.md)  
+   * 看茫茫红尘，谁将韶光偷换？人也好，魂也罢，不过一抹塘荷影。仅以此diary记录生活的点滴。
    
 ---
 **If you want me:**  
