@@ -6,20 +6,15 @@
     * [LNMP搭建教程](https://github.com/wumengsheng/blog/blob/gh-pages/LNMP搭建教程.md#1)  
     * [ftp服务器搭建教程](https://github.com/wumengsheng/blog/blob/gh-pages/ftp服务器搭建教程.md#5)   
     * [服务器端搭建shadowsocks教程](https://github.com/wumengsheng/blog/blob/gh-pages/服务器端搭建shadowsocks教程.md#7)   
-  
----
+------
 * [HTML篇](https://github.com/wumengsheng/HTML)  
-  
---- 
+------ 
 * [CSS篇](https://github.com/wumengsheng/CSS)  
-    
----
+------
 * [JavaScript篇](https://github.com/wumengsheng/JavaScript)  
-    
----
+------
 * [前端面试篇](https://github.com/wumengsheng/front-end-interview)  
-    
----
+------
 * [日记](https://github.com/wumengsheng/diary/blob/master/README.md)  
    
 ---
