@@ -13,7 +13,7 @@ Speedtest.net提供了一个命令行版本——speedtest-cli，来测试宽带
 ---
 <p id = "2"><b>2. 安装speedtest-cli</b></p>
 speedtest-cli是一个用Python编写的轻量级Linux命令行工具。  
-命令如下: 
+命令如下:    
 `wget https://raw.github.com/sivel/speedtest-cli/master/speedtest_cli.py`  
 `chmod a+rx speedtest_cli.py`  
 `sudo mv speedtest_cli.py /usr/local/bin/speedtest-cli`  
