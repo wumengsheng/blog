@@ -5,7 +5,8 @@
     * [Markdown基本语法](http://192.241.226.33/mdTeaching.html)   
     * [LNMP搭建教程](https://github.com/wumengsheng/blog/blob/gh-pages/LNMP搭建教程.md#1)  
     * [ftp服务器搭建教程](https://github.com/wumengsheng/blog/blob/gh-pages/ftp服务器搭建教程.md#5)   
-    * [服务器端搭建shadowsocks教程](https://github.com/wumengsheng/blog/blob/gh-pages/服务器端搭建shadowsocks教程.md#7)  
+    * [服务器端搭建shadowsocks教程](https://github.com/wumengsheng/blog/blob/gh-pages/服务器端搭建shadowsocks教程.md#7)    
+    * [Ubuntu之使用speedtest-cli测试网速](https://github.com/wumengsheng/blog/blob/gh-pages/Ubuntu%E4%B9%8B%E4%BD%BF%E7%94%A8speedtest-cli%E6%B5%8B%E8%AF%95%E9%80%9F%E5%BA%A6.md)  
     
 ---
 * [HTML篇](https://github.com/wumengsheng/HTML)  
